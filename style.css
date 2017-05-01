@@ -1,5 +1,5 @@
 html{
-    background-color: #204d74;   
+    background-color: #204d74;
 }
 
 body{
@@ -70,4 +70,37 @@ ul li ul li a{
     font-size: 12px;
     margin: 0, 2px, 0, 2px;
     padding: 0;
+}
+
+.cs50-table{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    opacity: 0.8;
+}
+
+table{
+    border-color: #204d74;
+    color: #0ED2F7;
+    border-spacing: 0;
+}
+table tr td{
+    align-content: center;
+    color: #0ED2F7;
+}
+
+#table-title{
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+#period{
+    text-align: center;
+    font-family: "PT Serif";
 }
